@@ -19,6 +19,7 @@ mkdir -p ~/.local/bin
 mv ./kubectl ~/.local/bin/kubectl
 kubectl version --client
 ```
+![Screenshot-from-2024-03-15-19-48-32.png](https://i.postimg.cc/xTvHkYrJ/Screenshot-from-2024-03-15-19-48-32.png)
 #### Install eksctl
 ```
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
@@ -26,6 +27,7 @@ curl -sL "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_ch
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 sudo mv /tmp/eksctl /usr/local/bin
 ```
+![Screenshot-from-2024-03-15-19-53-37.png](https://i.postimg.cc/TPGtyQHG/Screenshot-from-2024-03-15-19-53-37.png)
 #### Install awscli
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -34,10 +36,12 @@ sudo ./aws/install
 ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 aws --version
 ```
+![Screenshot-from-2024-03-15-20-00-52.png](https://i.postimg.cc/vTWzHVLD/Screenshot-from-2024-03-15-20-00-52.png)
 Configure aws with awscli using access key and secret access key id
 ```
 aws configure
 ```
+![image-3.png](https://i.postimg.cc/Jnn7LfJ2/image-3.png)
 #### Create EKS-cluster using Fargate
 ```
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate

@@ -125,8 +125,10 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n ku
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
-
+![Screenshot-from-2024-03-16-19-13-03.png](https://i.postimg.cc/N0N1fy91/Screenshot-from-2024-03-16-19-13-03.png)
 #### To access the application
 ```
 kubectl get ingress -n game-2048
 ```
+![Screenshot-from-2024-03-16-19-13-30.png](https://i.postimg.cc/DzmS6x0X/Screenshot-from-2024-03-16-19-13-30.png)
+![Screenshot-from-2024-03-16-19-15-24.png](https://i.postimg.cc/q771LH2x/Screenshot-from-2024-03-16-19-15-24.png)

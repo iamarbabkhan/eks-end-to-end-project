@@ -96,7 +96,7 @@ eksctl create iamserviceaccount \
   --attach-policy-arn=arn:aws:iam::<your-aws-account-id>:policy/AWSLoadBalancerControllerIAMPolicy \
   --approve
 ```
-![Screenshot-from-2024-03-15-23-10-58.png](https://i.postimg.cc/9fLDtG1k/Screenshot-from-2024-03-15-23-10-58.png)
+![image-4.png](https://i.postimg.cc/HLh4pJRf/image-4.png)]
 #### Install snap
 ```
 sudo snap install helm --classic
